@@ -1,0 +1,24 @@
+{
+  "name": "great-books",
+  "version": "1.0.0",
+  "description": "Site multi-pages responsivo para exposição de livros diversos",
+  "main": "src/server.js",
+  "scripts": {
+    "server":"nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpwf/Great-Books.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpwf/Great-Books/issues"
+  },
+  "homepage": "https://github.com/jpwf/Great-Books#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "nunjucks": "^3.2.3"
+  }
+}
