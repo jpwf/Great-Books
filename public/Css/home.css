@@ -10,3 +10,52 @@ html,body{
 .clear{
 	clear: both;
 }
+header{
+	text-align: center;
+	width: 1360px;
+	height: 185px;
+	background-color: #C96604;
+}
+header h1{
+	padding: 40px 2%;
+	font-style: italic;
+	/* font-style: bold; */
+	font-size: 40px;
+}
+header .links{
+	margin-top: 20px;
+	padding: 20px 0;
+}
+.center{
+	text-align: center;
+	/* display: inline-block; */
+}
+.books{
+	/* display: inline-block; */
+	width: 100%;
+}
+/* .book-1{
+	float: left;
+}
+.book-3{
+	float: right;
+} */
+.book-1, .book-2, .book-3{
+	/* width: 33.3%; */
+	padding: 2% 2%;
+	display: inline-block;
+}
+footer{
+	padding: 20px 0;
+	width: 1360px;
+	height: 69px;
+	text-align:center;
+	background-color: black;
+	color: white;
+}
+footer p{
+	float: left;
+}
+footer h3{
+	float: right;
+}

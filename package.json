@@ -4,7 +4,7 @@
   "description": "Site multi-pages responsivo para exposição de livros diversos",
   "main": "src/server.js",
   "scripts": {
-    "server":"nodemon src/server.js"
+    "run server":"nodemon src/server.js"
   },
   "repository": {
     "type": "git",
